@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
-        "packagesPath": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\MvcMovie\\obj\\",
+        "projectPath": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
+        "packagesPath": "C:\\Users\\kyleg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\natnh.DESKTOP-B3NF5UC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\kyleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
