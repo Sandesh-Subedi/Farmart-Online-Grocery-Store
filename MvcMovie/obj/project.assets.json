@@ -8229,11 +8229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jakeerwin/Desktop/playinwem/CapstoneProject/MvcMovie/MvcMovie.csproj",
+      "projectUniqueName": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "/Users/jakeerwin/Desktop/playinwem/CapstoneProject/MvcMovie/MvcMovie.csproj",
+      "projectPath": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj",
       "packagesPath": "/Users/jakeerwin/.nuget/packages/",
-      "outputPath": "/Users/jakeerwin/Desktop/playinwem/CapstoneProject/MvcMovie/obj/",
+      "outputPath": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jakeerwin/.nuget/NuGet/NuGet.Config"
