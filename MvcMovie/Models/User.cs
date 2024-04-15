@@ -1,6 +1,6 @@
 using System.Net.Sockets;namespace MvcMovie.Models;
 
-public class Users(string userName, string password, int userId, string email, string firstName, string lastName) interface IUser
+public class Users(string userName, string password, int userId, string email, string firstName, string lastName)
 {
     public string UserName { get; set; } = userName;
     public string Password { get; set; } = password;
