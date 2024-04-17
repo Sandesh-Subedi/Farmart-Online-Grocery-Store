@@ -24,20 +24,22 @@ namespace TestProject1
         {
             Assert.That(SignIn.LoginWithData("user2", "pass002"), Is.EqualTo(true));
         }
-
+        [Test]
         public void TestLogin3WrongPassword()
         {
             Assert.That(SignIn.LoginWithData("user2", "pass003"), Is.EqualTo(false));
         }
+        [Test]
         public void TestLogin4WrongPassword()
         {
             Assert.That(SignIn.LoginWithData("user2", "grapejuice"), Is.EqualTo(false));
         }
-
+        [Test]
         public void TestLogin4WrongUsername()
         {
             Assert.That(SignIn.LoginWithData("Apple", "grapejuice"), Is.EqualTo(false));
         }
+        [Test]
         public void TestLogin5WrongUsername()
         {
             Assert.That(SignIn.LoginWithData("Apple", "pass001"), Is.EqualTo(false));
