@@ -12,14 +12,9 @@ namespace MvcMovie.Models
             SqlConnection? connection = null;
             try
             {
-                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+                string connectionStr = "Data Source=localhost\\sqlexpress;Initial Catalog = master; Integrated Security=True; MultipleActiveResultSets=True; TrustServerCertificate=True;";
 
-                builder.DataSource = "cse.unl.edu";
-                builder.UserID = "yorazov";
-                builder.Password = "E7hAh164";
-                builder.InitialCatalog = "yorazov";
-
-                connection = new SqlConnection(builder.ConnectionString);
+                connection = new SqlConnection(connectionStr);
                 connection.Open();
             }
             catch (SqlException e)

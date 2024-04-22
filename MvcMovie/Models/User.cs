@@ -1,4 +1,6 @@
 using System.Net.Sockets;namespace MvcMovie.Models;
+using Microsoft.Data.SqlClient;
+using System.Data;
 
 public class Users(string userName, string password, int userId, string email, string firstName, string lastName) : IUser
 {
@@ -11,6 +13,16 @@ public class Users(string userName, string password, int userId, string email, s
 
     public void createNewUser() 
     {
+        SqlConnection? connection = Database.ConnectToDatabase();
+        String sql = "SELECT username, password FROM Users WHERE username = @username";
+
+        using (SqlCommand command = new SqlCommand(sql, connection))
+        {
+            command.Parameters.Add("@username", SqlDbType.VarChar);
+            command.Parameters["@username"].Value = UserName;
+            using (SqlDataReader reader = command.ExecuteReader())
+                Database.CloseConnection(connection);
+        }
         throw new NotImplementedException();
     }
 

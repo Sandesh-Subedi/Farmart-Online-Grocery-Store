@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MvcMovie.Models;
 
+
 namespace MvcMovie.Controllers;
 
 public class HomeController : Controller
@@ -20,6 +21,8 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
+        bool result = MvcMovie.Models.SignIn.LoginWithData("johnfarmer", "password123");
+        Console.WriteLine(result);
         return View();
     }
 

@@ -349,3 +349,4 @@ C:\Users\kyleg\CapstoneProject\TestProject1\obj\Debug\net8.0\refint\TestProject1
 C:\Users\kyleg\CapstoneProject\TestProject1\obj\Debug\net8.0\TestProject1.pdb
 C:\Users\kyleg\CapstoneProject\TestProject1\obj\Debug\net8.0\TestProject1.genruntimeconfig.cache
 C:\Users\kyleg\CapstoneProject\TestProject1\obj\Debug\net8.0\ref\TestProject1.dll
+C:\Users\kyleg\CapstoneProject\TestProject1\bin\Debug\net8.0\MvcMovie.dll.config

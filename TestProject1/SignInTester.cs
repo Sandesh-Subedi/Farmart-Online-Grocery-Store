@@ -16,23 +16,23 @@ namespace TestProject1
         [Test]
         public void TestLogin1()
         {    
-            Assert.That(SignIn.LoginWithData("user1", "pass001"), Is.EqualTo(true));
+            Assert.That(SignIn.LoginWithData("johnfarmer", "password123"), Is.EqualTo(true));
         }
 
         [Test]
         public void TestLogin2()
         {
-            Assert.That(SignIn.LoginWithData("user2", "pass002"), Is.EqualTo(true));
+            Assert.That(SignIn.LoginWithData("janecustomer", "securepassword"), Is.EqualTo(true));
         }
         [Test]
         public void TestLogin3WrongPassword()
         {
-            Assert.That(SignIn.LoginWithData("user2", "pass003"), Is.EqualTo(false));
+            Assert.That(SignIn.LoginWithData("janecustomer", "pass003"), Is.EqualTo(false));
         }
         [Test]
         public void TestLogin4WrongPassword()
         {
-            Assert.That(SignIn.LoginWithData("user2", "grapejuice"), Is.EqualTo(false));
+            Assert.That(SignIn.LoginWithData("bobcustomer", "grapejuice"), Is.EqualTo(false));
         }
         [Test]
         public void TestLogin4WrongUsername()
@@ -42,7 +42,7 @@ namespace TestProject1
         [Test]
         public void TestLogin5WrongUsername()
         {
-            Assert.That(SignIn.LoginWithData("Apple", "pass001"), Is.EqualTo(false));
+            Assert.That(SignIn.LoginWithData("Apple", "securepassword"), Is.EqualTo(false));
         }
         [Test] 
         public void TestTester() 

@@ -1,10 +1,11 @@
 ﻿using Microsoft.CodeAnalysis.Elfie.Diagnostics;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using System.Diagnostics.Metrics;
 
 namespace MvcMovie.Models
  {
-    public class SignIn
+    public static class SignIn
     {
         public static bool LoginWithData(string usernameString, string passwordString)
         {
@@ -13,14 +14,9 @@ namespace MvcMovie.Models
         bool result = false;
             try
             {
-                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+                string connectionStr = "Data Source=localhost\\sqlexpress;Initial Catalog = master; Integrated Security=True; MultipleActiveResultSets=True; TrustServerCertificate=True;";
 
-                builder.DataSource = "cse.unl.edu";
-                builder.UserID = "yorazov";
-                builder.Password = "E7hAh164";
-                builder.InitialCatalog = "yorazov";
-
-                using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
+                using (SqlConnection connection = new SqlConnection(connectionStr))
                 {
 
                     connection.Open();
@@ -38,18 +34,19 @@ namespace MvcMovie.Models
                                 Console.WriteLine("{0} {1}", reader.GetString(0), reader.GetString(1));
                                 GottenUsername = reader.GetString(0);
                                 GottenPassword = reader.GetString(1);
+                                connection.Close();
                             }
                         }
                     }
                 }
-                if (GottenPassword == passwordString)
-                { 
-                    result = true;
-                }
             }
-            catch (SqlException e)
+            catch (Exception e)
             {
-                Console.WriteLine("Username Not found");
+                Console.WriteLine(e.Message);
+            }
+            if (GottenUsername == usernameString && GottenPassword == passwordString)
+            {
+                result = true;
             }
             return result;
         }
