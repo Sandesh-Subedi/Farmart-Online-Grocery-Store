@@ -21,7 +21,7 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
-        bool result = MvcMovie.Models.SignIn.LoginWithData("johnfarmer", "password123");
+        //bool result = MvcMovie.Models.SignIn.LoginWithData("johnfarmer", "password123");
         Console.WriteLine(result);
         return View();
     }

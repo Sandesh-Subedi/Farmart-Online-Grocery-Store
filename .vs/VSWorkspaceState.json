@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\MvcMovie",
+    "\\MvcMovie\\Controllers",
     "\\MvcMovie\\Models"
   ],
-  "SelectedNode": "\\MvcMovie\\Models\\User.cs",
+  "SelectedNode": "\\MvcMovie\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
