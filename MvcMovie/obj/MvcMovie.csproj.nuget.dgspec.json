@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj": {}
+    "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj": {
+    "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
-        "packagesPath": "C:\\Users\\kyleg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\obj\\",
+        "projectPath": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj",
+        "packagesPath": "/Users/jakeerwin/.nuget/packages/",
+        "outputPath": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kyleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jakeerwin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -84,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<div class="main-container">
+    <div class="register-container">
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true, "Registration failed. Please check your information.");
+            <div class="register-form">
+                <h2>Register</h2>
+                <div class="column">
+                    <div class="column-one">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="createUsername">Create Username</label>
+                            <input type="text" id="createUsername" name="createUsername" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="column-two">
+                        <div class="form-group">
+                            <label for="createPassword">Create Password</label>
+                            <input type="password" id="createPassword" name="createPassword" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" name="dob" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+                
+                <div class="login-options">
+                    <p>Already have an account? <a asp-area="" asp-controller="Home" asp-action="Login">Login</a></p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
