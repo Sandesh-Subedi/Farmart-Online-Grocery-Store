@@ -6,7 +6,7 @@ namespace MvcMovie.Models;
 public interface IUser
 {
 
-    public void createNewUser();
+    public void RegisterUser();
 
     public void changePassword();
 
