@@ -1,0 +1,27 @@
+@model MvcMovie.Models.SignIn
+
+<link rel="stylesheet" href="~/css/styles.css" />
+<div class="main-container">
+    <div class="login-container">
+        @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+        {
+            @Html.ValidationSummary(true, "Login failed. Check your login details.");
+            <div class="login-form">
+                <h2>Sign In</h2>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" />
+                </div>
+                <button type="submit" value="submit" asp-page-handler="Submit" class="btn btn-primary">Sign In</button>
+                
+                <div class="register-options">
+                    <p>Don't have an account? <a asp-area="" asp-controller="Home" asp-action="Register">Register</a></p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
