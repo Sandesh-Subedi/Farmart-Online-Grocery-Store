@@ -8,6 +8,7 @@ namespace MvcMovie.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    public MvcMovie.Models.User? CurrentLogginUser { get; set; }
 
     public HomeController(ILogger<HomeController> logger)
     {
@@ -59,7 +60,15 @@ public class HomeController : Controller
 
         Console.WriteLine($"Username: {username}, Password: {password}");
 
-        //TODO: Implement SignIn()
+        if (MvcMovie.Models.SignIn.LoginWithData(username, password))
+        {
+            Console.WriteLine("Loggined in with " + username);
+        }
+        else 
+        {
+            //usenrame or password is incorrect
+            return View();
+        }
 
         return View("Products");
 

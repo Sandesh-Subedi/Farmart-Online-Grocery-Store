@@ -1,5 +1,5 @@
 namespace MvcMovie.Models;
-public class Customers : Users
+public class Customers : User
 {
     public Customers(string userName, string password, int userId, string email, string firstName, string lastName, int customerId, string address)
         : base(userName, password, userId, email, firstName, lastName)
