@@ -62,7 +62,8 @@ public class HomeController : Controller
 
         if (MvcMovie.Models.SignIn.LoginWithData(username, password))
         {
-            Console.WriteLine("Loggined in with " + username);
+            CurrentLogginUser = MvcMovie.Models.SignIn.getUserFromDatabase(username);
+            Console.WriteLine(CurrentLogginUser.UserName.ToString());
         }
         else 
         {

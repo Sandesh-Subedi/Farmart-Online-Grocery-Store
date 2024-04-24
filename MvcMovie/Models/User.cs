@@ -10,7 +10,7 @@ public class User(string userName, string password, string email, string firstNa
     public string FirstName { get; set; } = firstName;
     public string LastName { get; set; } = lastName;
 
-    public void createNewUser() 
+    public void RegisterUser() 
     {
         SqlConnection? connection = Database.ConnectToDatabase();
         String sql = "SELECT username, password FROM Users WHERE username = @username";

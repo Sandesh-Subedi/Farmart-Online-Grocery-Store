@@ -54,7 +54,7 @@ namespace MvcMovie.Models
             return result;
         }
 
-        public User getUserFromDatabase(string UserName)
+        public static User getUserFromDatabase(string UserName)
         {
             SqlConnection? connection = Database.ConnectToDatabase();
             String sql = "SELECT username, password, email, firstname, lastname FROM Users WHERE username = @username";
@@ -74,6 +74,7 @@ namespace MvcMovie.Models
                     }
                 }
             }
+            return null;
         }
     }
 }

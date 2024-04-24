@@ -8,7 +8,7 @@ public class Farmers(
     string lastName,
     int farmerId,
     bool verification)
-    : Users(userName, password, email, firstName, lastName)
+    : User(userName, password, email, firstName, lastName)
 {
     public int FarmerId { get; set;} = farmerId;
 
