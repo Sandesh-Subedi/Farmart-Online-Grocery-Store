@@ -5,6 +5,6 @@
     "\\MvcMovie\\Controllers",
     "\\MvcMovie\\Models"
   ],
-  "SelectedNode": "\\MvcMovie\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\MvcMovie\\Models\\SignIn.cs",
   "PreviewInSolutionExplorer": false
 }

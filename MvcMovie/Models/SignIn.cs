@@ -50,5 +50,27 @@ namespace MvcMovie.Models
             }
             return result;
         }
+
+        public User getUserFromDatabase(string UserName)
+        {
+            SqlConnection? connection = Database.ConnectToDatabase();
+            String sql = "SELECT username, password, email, firstname, lastname FROM Users WHERE username = @username";
+
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.Add("@username", SqlDbType.VarChar);
+                command.Parameters["@username"].Value = UserName;
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        User user = new User(reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3),
+                            reader.GetString(4));
+                        Database.CloseConnection(connection);
+                        return user;
+                    }
+                }
+            }
+        }
     }
 }
