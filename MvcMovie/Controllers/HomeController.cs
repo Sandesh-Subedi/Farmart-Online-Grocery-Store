@@ -8,6 +8,7 @@ namespace MvcMovie.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    public MvcMovie.Models.User? CurrentLogginUser { get; set; }
 
     public HomeController(ILogger<HomeController> logger)
     {
@@ -21,12 +22,12 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
-        //bool result = MvcMovie.Models.SignIn.LoginWithData("johnfarmer", "password123");
+        bool result = MvcMovie.Models.SignIn.LoginWithData("johnfarmer", "password123");
         Console.WriteLine(result);
         return View();
     }
 
-    public IActionResult Login()
+    public IActionResult SignIn()
     {
         return View();
     }
@@ -50,6 +51,53 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    [HttpPost] // Holds data from Sign In form
+    public IActionResult SignIn(MvcMovie.Models.SignIn signInModel) 
+    {
+        string username = signInModel.Username;
+        string password = signInModel.Password;
+
+        Console.WriteLine($"Username: {username}, Password: {password}");
+
+        if (MvcMovie.Models.SignIn.LoginWithData(username, password))
+        {
+            Console.WriteLine("Loggined in with " + username);
+        }
+        else 
+        {
+            //usenrame or password is incorrect
+            return View();
+        }
+
+        return View("Products");
+
+    }
+
+
+    [HttpPost]
+    public IActionResult Register(MvcMovie.Models.Register registerModel) 
+    {
+
+        string firstName = registerModel.FirstName;
+        string lastName = registerModel.LastName;
+        string email = registerModel.Email;
+        string username = registerModel.Username;
+        string password = registerModel.Password;
+        string confirmPassword = registerModel.ConfirmPassword;
+        DateTime dateOfBirth = registerModel.DateOfBirth;
+
+        Console.WriteLine($"First Name: {firstName}, Last Name: {lastName}, Email: {email}");
+        Console.WriteLine($"Username: {username}, Password: {password}, Confirm Password: {confirmPassword}, Date of Birth: {dateOfBirth}");
+
+
+        //TODO: Implement register() 
+
+        return View();
+
+    }
+
+
 
 
 

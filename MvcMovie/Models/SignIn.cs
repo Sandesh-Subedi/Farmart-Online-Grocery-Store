@@ -5,8 +5,11 @@ using System.Diagnostics.Metrics;
 
 namespace MvcMovie.Models
  {
-    public static class SignIn
+    public class SignIn
     {
+        public string Username { get; set; }
+        public string Password { get; set; }
+        
         public static bool LoginWithData(string usernameString, string passwordString)
         {
         string? GottenUsername = null;
