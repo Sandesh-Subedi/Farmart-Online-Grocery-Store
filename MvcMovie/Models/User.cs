@@ -57,23 +57,23 @@ public class User(string userName, string password, string email, string firstNa
         return result;
     }
 
-    public void changePassword() 
+    public void changePassword(string newPassword) 
     {
-        throw new NotImplementedException();
+        this.Password = newPassword;
     }
 
-    public void changeEmail()
+    public void changeEmail(string newEmail)
     {
-        throw new NotImplementedException();
+        this.Email = newEmail;
     }
 
-    public void changeFirstName()
+    public void changeFirstName(string newFirstName)
     {
-        throw new NotImplementedException();
+        this.FirstName = newFirstName;
     }
 
-    public void changeLastName()
+    public void changeLastName(string newLastName)
     {
-        throw new NotImplementedException();
+        this.LastName = newLastName;
     }
 }

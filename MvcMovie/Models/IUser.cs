@@ -8,11 +8,11 @@ public interface IUser
 
     public bool RegisterUser();
 
-    public void changePassword();
+    public void changePassword(string newPassword);
 
-    public void changeEmail();
+    public void changeEmail(string newEmail);
 
-    public void changeFirstName();
+    public void changeFirstName(string newFirstName);
 
-    public void changeLastName();
+    public void changeLastName(string newLastName);
 }

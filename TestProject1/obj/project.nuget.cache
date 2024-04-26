@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qnqAI0f0hB0H7dNDWz5jVwj5xVN86wf1Pr5TWQhRf5gHjLufuRvl6pmbegr4aRwxvRdlpYzwjIi0ovJ4g6HZqg==",
+  "dgSpecHash": "JVQ84ulBJgpSVW1k/Ea5v2fD7e2/CeRLJ4qWccPThAcI6HVkFQc0gTOQgiC/4fJ3iKqoAq99e8JUuSPQlMP6+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\kyleg\\CapstoneProject\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,8 @@
     "C:\\Users\\kyleg\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.4\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.4.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
