@@ -3,44 +3,109 @@
   Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<section class="cart-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 offset-md-2">
-        <h1 class="text-center mb-4">Your Cart</h1>
-        <div class="card">
-          <div class="card-body">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Product</th>
-                  <th scope="col">Price</th>
-                  <th scope="col">Quantity</th>
-                  <th scope="col">Total</th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Tomato</td>
-                  <td>$1.49</td>
-                  <td>
-                    <input type="number" class="form-control" value="1" min="1">
-                  </td>
-                  <td>$1.49</td>
-                  <td>
-                    <button class="btn btn-danger">Remove</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="text-center">
-              <button class="btn btn-primary">Update Cart</button>
-              <a href="#" class="btn btn-secondary">Continue Shopping</a>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>@ViewData["Title"]</title>
+  <style>
+    body {
+      background-image: url('Cart.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .cart-image {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      /* Adjust the width and height according to your image size */
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Your cart content goes here -->
+
+  <section class="cart-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <img class="cart-image" src="path_to_your_image" alt="Cart">
+          <div class="card">
+            <div class="card-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col" class="text-center" style="width: 10%;">Quantity</th>
+                    <th scope="col">Total</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Tomato</td>
+                    <td>$1.49</td>
+                    <td>
+                      <input type="number" class="form-control" value="1" min="1">
+                    </td>
+                    <td>$1.49</td>
+                    <td>
+                      <button class="btn btn-danger">Remove</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Onion</td>
+                    <td>$2.49</td>
+                    <td>
+                      <input type="number" class="form-control" value="1" min="1">
+                    </td>
+                    <td>$2.49</td>
+                    <td>
+                      <button class="btn btn-danger">Remove</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bell Peper</td>
+                    <td>$0.49</td>
+                    <td>
+                      <input type="number" class="form-control" value="1" min="1">
+                    </td>
+                    <td>$0.49</td>
+                    <td>
+                      <button class="btn btn-danger">Remove</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Cilantro</td>
+                    <td>$0.99</td>
+                    <td>
+                      <input type="number" class="form-control" value="1" min="1">
+                    </td>
+                    <td>$0.99</td>
+                    <td>
+                      <button class="btn btn-danger">Remove</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="text-center">
+                <button class="btn btn-primary">Update Cart</button>
+                <a href="#" class="btn btn-secondary">Continue Shopping</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+
+</body>
+
+</html>
