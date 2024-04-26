@@ -10,19 +10,51 @@ public class User(string userName, string password, string email, string firstNa
     public string FirstName { get; set; } = firstName;
     public string LastName { get; set; } = lastName;
 
-    public void RegisterUser() 
+    /**
+     * Checks if the username or email already exists and if it does returns falses, if not it adds it to the database and returns true
+     */
+    public bool RegisterUser()
     {
+        bool result = false;
         SqlConnection? connection = Database.ConnectToDatabase();
-        String sql = "SELECT username, password FROM Users WHERE username = @username";
 
-        using (SqlCommand command = new SqlCommand(sql, connection))
+        // Check if username or email already exist
+        string checkQuery = "SELECT COUNT(*) FROM users WHERE username = @username OR email = @email";
+        using (SqlCommand checkCommand = new SqlCommand(checkQuery, connection))
         {
-            command.Parameters.Add("@username", SqlDbType.VarChar);
-            command.Parameters["@username"].Value = UserName;
-            using (SqlDataReader reader = command.ExecuteReader())
+            checkCommand.Parameters.Add("@username", SqlDbType.VarChar).Value = UserName;
+            checkCommand.Parameters.Add("@email", SqlDbType.VarChar).Value = Email;
+
+            int count = (int)checkCommand.ExecuteScalar();
+            if (count > 0)
+            {
+                // Username or email already exists
+                result = false;
                 Database.CloseConnection(connection);
+                return result;
+            }
         }
-        throw new NotImplementedException();
+
+        // If username and email are unique, proceed with user registration
+        string insertQuery = "INSERT INTO users (username, firstName, lastName, email, password) VALUES (@username, @firstName, @lastName, @email, @password);";
+        using (SqlCommand command = new SqlCommand(insertQuery, connection))
+        {
+            command.Parameters.Add("@username", SqlDbType.VarChar).Value = UserName;
+            command.Parameters.Add("@firstName", SqlDbType.VarChar).Value = FirstName;
+            command.Parameters.Add("@lastName", SqlDbType.VarChar).Value = LastName;
+            command.Parameters.Add("@email", SqlDbType.VarChar).Value = Email;
+            command.Parameters.Add("@password", SqlDbType.VarChar).Value = Password;
+
+            int rowsAffected = command.ExecuteNonQuery();
+            if (rowsAffected > 0)
+            {
+                // User registered successfully
+                result = true;
+            }
+        }
+
+        Database.CloseConnection(connection);
+        return result;
     }
 
     public void changePassword() 

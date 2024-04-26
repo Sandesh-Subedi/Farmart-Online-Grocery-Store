@@ -93,6 +93,24 @@ public class HomeController : Controller
 
 
         //TODO: Implement register() 
+        if (password == confirmPassword)
+        {
+            User userToRegister = new User(username, password, email, firstName, lastName);
+
+            if (userToRegister.RegisterUser())
+            {
+                return View("Products");
+            }
+            else 
+            { 
+                // username or email already exists
+            }
+        }
+        else
+        {
+            // passwords do not match
+        }
+        
 
         return View();
 

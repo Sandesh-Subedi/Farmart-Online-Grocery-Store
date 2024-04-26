@@ -7,7 +7,7 @@ namespace MvcMovie.Models
  {
     public class Database
     {
-        public static SqlConnection ConnectToDatabase()
+        public static SqlConnection? ConnectToDatabase()
         {
             SqlConnection? connection = null;
             try
@@ -24,7 +24,7 @@ namespace MvcMovie.Models
             return connection;
         }
 
-        public static void CloseConnection(SqlConnection connection) 
+        public static void CloseConnection(SqlConnection? connection) 
         {
             if (connection != null && connection.State != System.Data.ConnectionState.Closed) 
             { 
