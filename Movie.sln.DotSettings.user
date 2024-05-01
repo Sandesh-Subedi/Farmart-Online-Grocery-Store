@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a74acde3_002D75fb_002D465c_002Dbca9_002D3ee401fef5b2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CartTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::699F18F2-FE8A-4A19-9E47-B2BFCE9B56F6::net8.0::TestProject1.CartTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f506bb43_002D6529_002D47a0_002Da620_002Dbc1b4442a2c7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestAddItem" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::699F18F2-FE8A-4A19-9E47-B2BFCE9B56F6::net8.0::TestProject1.CartTests.TestAddItem&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
