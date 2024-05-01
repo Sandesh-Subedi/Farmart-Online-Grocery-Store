@@ -7,7 +7,8 @@
         string category,
         double weight,
         string dateGrown,
-        string dateHarvested)
+        string dateHarvested,
+        string imageURL)
     {
         public int ProductId { get; set; } = productId;
         public string Name { get; set; } = name;
@@ -16,5 +17,7 @@
         public double Weight { get; set; } = weight;
         public string DateGrown { get; set; } = dateGrown;
         public string DateHarvested { get; set; } = dateHarvested;
+        public string imageURL { get; set; } = imageURL;
+
     }
 }

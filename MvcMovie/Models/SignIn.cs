@@ -34,7 +34,6 @@ namespace MvcMovie.Models
                         {
                             while (reader.Read())
                             {
-                                Console.WriteLine("{0} {1}", reader.GetString(0), reader.GetString(1));
                                 GottenUsername = reader.GetString(0);
                                 GottenPassword = reader.GetString(1);
                                 connection.Close();
