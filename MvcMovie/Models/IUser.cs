@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcMovie.Models;
 
-public class IUser
+public interface IUser
 {
 
     public void createNewUser();
