@@ -1412,7 +1412,6 @@ C:/Users/kyleg/CapstoneProject/MvcMovie/bin/Debug/net8.0/MvcMovie.dll.config
 /Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/Debug/net8.0/scopedcss/bundle/MvcMovie.styles.css
 /Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/Debug/net8.0/scopedcss/projectbundle/MvcMovie.bundle.scp.css
-/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/Debug/net8.0/MvcMovie.csproj.CopyComplete
 /Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/Debug/net8.0/MvcMovie.genruntimeconfig.cache
 /Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/Debug/net8.0/ref/MvcMovie.dll
 C:/Users/kyleg/CapstoneProject/MvcMovie/obj/Debug/net8.0/MvcMovie.MvcApplicationPartsAssemblyInfo.cs
@@ -1719,3 +1718,4 @@ C:/Users/kyleg/CapstoneProject/MvcMovie/bin/Debug/net8.0/refs/System.Xml.XPath.X
 C:/Users/kyleg/CapstoneProject/MvcMovie/bin/Debug/net8.0/refs/WindowsBase.dll
 C:/Users/kyleg/CapstoneProject/MvcMovie/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:/Users/kyleg/CapstoneProject/MvcMovie/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/Debug/net8.0/MvcMovie.csproj.Up2Date
