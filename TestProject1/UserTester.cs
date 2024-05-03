@@ -2,6 +2,7 @@
 
 using Microsoft.AspNetCore.Authentication;
 using MvcMovie.Models;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Intrinsics.X86;
 
 namespace TestProject1
@@ -19,11 +20,12 @@ namespace TestProject1
         {
             User user = new User("johnfarmer", "1", "i@gmail.com", "John", "loser");
             Assert.That(user.RegisterUser(), Is.EqualTo(false));
+            
         }
         [Test]
         public void TestRegister2Username()
         {
-            User user = new User("alicefamrer", "1", "d@gmail.com", "Alice", "Brown");
+            User user = new User("alicefarmer", "1", "d@gmail.com", "Alice", "Brown");
             Assert.That(user.RegisterUser(), Is.EqualTo(false));
         }
 
