@@ -6,7 +6,7 @@ using System.Runtime.Intrinsics.X86;
 
 namespace TestProject1
 {
-    public class Tests
+    public class SignInTester
     {
         [SetUp]
         public void Setup()
