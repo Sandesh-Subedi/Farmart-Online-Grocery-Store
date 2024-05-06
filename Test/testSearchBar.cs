@@ -20,7 +20,7 @@ namespace MvcMovie.Tests
         public void TestSearchProductsReturnsResults()
         {
             // Test the search functionality with a known value that should return results
-            var products = SearchBar.SearchProducts("Apple");
+            var products = SearchBar.SearchProducts("Organic Apple");
             Assert.IsTrue(products.Count > 0, "No products found matching 'Apple'");
         }
 
