@@ -30,7 +30,7 @@ namespace MvcMovie.Models
                                 reader.GetString(1), // name
                                 reader.GetString(2), // description
                                 reader.GetString(3), // category
-                                reader.GetDouble(4), // weight
+                                Convert.ToDouble(reader.GetDecimal(4)), // weight converted from decimal to double
                                 reader.GetString(5), // dateGrown
                                 reader.GetString(6), // dateHarvested
                                 reader.GetString(7)); // imageURL
