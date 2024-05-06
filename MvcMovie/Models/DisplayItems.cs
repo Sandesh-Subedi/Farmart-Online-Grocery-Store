@@ -8,26 +8,22 @@ namespace MvcMovie.Models
     public class DisplayItems
     {
         /**
-         * Returns a list of products, sorted by @sortedBy
-         * This variable can be any column some examples include
-         * "name"
-         * "dateGrown"
+         * Returns a list of products, sorted by 
          * "dateHarvested"
          */
-        public static List<Product> getAllItems(string sortedBy) 
+        public static List<Product> getAllItems() 
         {
             List<Product> allProducts = new List<Product>();
             SqlConnection? connection = Database.ConnectToDatabase();
-            String sql = "SELECT * FROM Item ORDER BY @sort";
+            String sql = "SELECT itemId, name, dimensions, farmerId, weight, dateGrown, dateHarvested, image FROM Item ORDER BY dateHarvested";
 
             using (SqlCommand command = new SqlCommand(sql, connection))
             {
-                command.Parameters.Add("@sort", SqlDbType.VarChar).Value = sortedBy;
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        Product currentProduct = new Product(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetFloat(4), reader.GetString(5), reader.GetString(6), reader.GetString(7));
+                        Product currentProduct = new Product(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetInt32(3).ToString(), decimal.ToDouble(reader.GetDecimal(4)), reader.GetDateTime(5).ToString(), reader.GetDateTime(6).ToString(), reader.GetString(7));
                         allProducts.Add(currentProduct);
                     }
                 }
