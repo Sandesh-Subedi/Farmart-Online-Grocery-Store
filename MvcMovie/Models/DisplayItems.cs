@@ -4,7 +4,7 @@ using System.Data;
 using System.Diagnostics.Metrics;
 
 namespace MvcMovie.Models
- {
+{
     public class DisplayItems
     {
         /**
@@ -14,7 +14,7 @@ namespace MvcMovie.Models
          * "dateGrown"
          * "dateHarvested"
          */
-        public static List<Product> getAllItems(string sortedBy) 
+        public static List<Product> getAllItems(string sortedBy)
         {
             List<Product> allProducts = new List<Product>();
             SqlConnection? connection = Database.ConnectToDatabase();

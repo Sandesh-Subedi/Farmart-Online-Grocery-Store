@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj": {}
+    "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/MvcMovie.csproj": {}
   },
   "projects": {
-    "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj": {
+    "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/MvcMovie.csproj",
-        "packagesPath": "/Users/jakeerwin/.nuget/packages/",
-        "outputPath": "/Users/jakeerwin/Documents/GitHub/CapstoneProject/MvcMovie/obj/",
+        "projectPath": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/MvcMovie.csproj",
+        "packagesPath": "/Users/sandeshsubedi/.nuget/packages/",
+        "outputPath": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jakeerwin/.nuget/NuGet/NuGet.Config"
+          "/Users/sandeshsubedi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
