@@ -21,7 +21,7 @@ namespace MvcMovie.Tests
         {
             // Test the search functionality with a known value that should return results
             var products = SearchBar.SearchProducts("Organic Apple");
-            Assert.IsTrue(products.Count > 0, "No products found matching 'Apple'");
+            Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
         }
 
         [Test]
