@@ -15,10 +15,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94f091031cd481e1036cfbf38580a7ea7ca9bcae")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f8a376f027b297fd88e15fa662be596b9aaa328")]
 >>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9064cf2f2bc727db4d9b54b0aadf32d07e57c441")]
+>>>>>>> b82817475ab4989c2c9e5a0a17f5e9831ed769ae
 [assembly: System.Reflection.AssemblyProductAttribute("MvcMovie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcMovie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
