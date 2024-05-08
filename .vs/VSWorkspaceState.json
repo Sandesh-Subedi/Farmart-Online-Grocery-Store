@@ -2,9 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\MvcMovie",
+<<<<<<< HEAD
     "\\MvcMovie\\Views",
     "\\MvcMovie\\Views\\Home"
   ],
   "SelectedNode": "\\MvcMovie\\Views\\Home\\Register.cshtml",
+=======
+    "\\MvcMovie\\Models",
+    "\\TestProject1"
+  ],
+  "SelectedNode": "\\MvcMovie\\Models\\DisplayItems.cs",
+>>>>>>> parent of b828174 (search bar imlpementation)
   "PreviewInSolutionExplorer": false
 }
