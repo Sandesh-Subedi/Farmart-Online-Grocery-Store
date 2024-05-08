@@ -2,136 +2,125 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MvcMovie.Models;
 
-
-namespace MvcMovie.Controllers;
-
-public class HomeController : Controller
+namespace MvcMovie.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-    public MvcMovie.Models.User? CurrentLogginUser { get; set; }
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly ILogger<HomeController> _logger;
+        public MvcMovie.Models.User? CurrentLogginUser { get; set; }
 
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    public IActionResult SignIn()
-    {
-        return View();
-    }
-    public IActionResult Register()
-    {
-        return View();
-    }
-
-
-    public IActionResult Products()
-    {
-        Product product = new Product(
-                productId: 1,
-                name: "Dummy Product",
-                description: "This is a dummy product description.",
-                category: "Dummy Category",
-                weight: 1.5,
-                dateGrown: "2023-01-01",
-                dateHarvested: "2023-01-15",
-                imageURL: "https://example.com/dummy-image.jpg");
-
-            return View(product);
-    }
-
-    public IActionResult AboutUs()
-    {
-        return View();
-    }
-
-    public IActionResult Cart()
-    {
-        return View();
-    }
-
-    [HttpPost] // Holds data from Sign In form
-    public IActionResult SignIn(MvcMovie.Models.SignIn signInModel) 
-    {
-        string username = signInModel.Username;
-        string password = signInModel.Password;
-
-        Console.WriteLine($"Username: {username}, Password: {password}");
-
-        if (MvcMovie.Models.SignIn.LoginWithData(username, password))
+        public HomeController(ILogger<HomeController> logger)
         {
-            CurrentLogginUser = MvcMovie.Models.SignIn.getUserFromDatabase(username);
-            Console.WriteLine(CurrentLogginUser.UserName.ToString());
+            _logger = logger;
         }
-        else 
+
+        public IActionResult Index()
         {
-            //usenrame or password is incorrect
             return View();
         }
 
-        return View("Products");
-
-    }
-
-
-    [HttpPost]
-    public IActionResult Register(MvcMovie.Models.Register registerModel) 
-    {
-
-        string firstName = registerModel.FirstName;
-        string lastName = registerModel.LastName;
-        string email = registerModel.Email;
-        string username = registerModel.Username;
-        string password = registerModel.Password;
-        string confirmPassword = registerModel.ConfirmPassword;
-        DateTime dateOfBirth = registerModel.DateOfBirth;
-
-        Console.WriteLine($"First Name: {firstName}, Last Name: {lastName}, Email: {email}");
-        Console.WriteLine($"Username: {username}, Password: {password}, Confirm Password: {confirmPassword}, Date of Birth: {dateOfBirth}");
-
-
-        //TODO: Implement register() 
-        if (password == confirmPassword)
+        public IActionResult Privacy()
         {
-            User userToRegister = new User(username, password, email, firstName, lastName);
+            return View();
+        }
 
-            if (userToRegister.RegisterUser())
+        public IActionResult SignIn()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        public IActionResult Products()
+        {
+            Product product = new Product(
+                productId: 1,
+                name: "Tomato",
+                description: "This is a fresh tomato.",
+                category: "Vegetable",
+                weight: 0.2,
+                dateGrown: "2024-05-05",
+                dateHarvested: "2024-05-06",
+                imageURL: "/Images/tomato.jpg");
+
+            return View(product);
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult Cart()
+        {
+            return View();
+        }
+
+        [HttpPost] // Holds data from Sign In form
+        public IActionResult SignIn(MvcMovie.Models.SignIn signInModel)
+        {
+            string username = signInModel.Username;
+            string password = signInModel.Password;
+
+            Console.WriteLine($"Username: {username}, Password: {password}");
+
+            if (MvcMovie.Models.SignIn.LoginWithData(username, password))
             {
-                return View("Products");
+                CurrentLogginUser = MvcMovie.Models.SignIn.getUserFromDatabase(username);
+                Console.WriteLine(CurrentLogginUser.UserName.ToString());
             }
-            else 
-            { 
-                // username or email already exists
+            else
+            {
+                // username or password is incorrect
+                return View();
             }
+
+            return View("Products");
         }
-        else
+
+        [HttpPost]
+        public IActionResult Register(MvcMovie.Models.Register registerModel)
         {
-            // passwords do not match
+            string firstName = registerModel.FirstName;
+            string lastName = registerModel.LastName;
+            string email = registerModel.Email;
+            string username = registerModel.Username;
+            string password = registerModel.Password;
+            string confirmPassword = registerModel.ConfirmPassword;
+            DateTime dateOfBirth = registerModel.DateOfBirth;
+
+            Console.WriteLine($"First Name: {firstName}, Last Name: {lastName}, Email: {email}");
+            Console.WriteLine($"Username: {username}, Password: {password}, Confirm Password: {confirmPassword}, Date of Birth: {dateOfBirth}");
+
+            // TODO: Implement register() 
+            if (password == confirmPassword)
+            {
+                User userToRegister = new User(username, password, email, firstName, lastName);
+
+                if (userToRegister.RegisterUser())
+                {
+                    return View("Products");
+                }
+                else
+                {
+                    // username or email already exists
+                }
+            }
+            else
+            {
+                // passwords do not match
+            }
+
+            return View();
         }
-        
 
-        return View();
-
-    }
-
-
-
-
-
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }
