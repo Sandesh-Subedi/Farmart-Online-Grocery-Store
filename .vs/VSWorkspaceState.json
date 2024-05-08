@@ -3,9 +3,10 @@
     "",
     "\\MvcMovie",
     "\\MvcMovie\\Controllers",
-    "\\MvcMovie\\Models",
+    "\\MvcMovie\\Views",
+    "\\MvcMovie\\Views\\Home",
     "\\TestProject1"
   ],
-  "SelectedNode": "\\MvcMovie\\Models\\SearchBar.cs",
+  "SelectedNode": "\\MvcMovie\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
