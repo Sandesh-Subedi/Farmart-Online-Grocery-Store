@@ -1,4 +1,5 @@
-using System.Net.Sockets;namespace MvcMovie.Models;
+using System.Net.Sockets;
+namespace MvcMovie.Models;
 using Microsoft.Data.SqlClient;
 using System.Data;
 
@@ -57,7 +58,7 @@ public class User(string userName, string password, string email, string firstNa
         return result;
     }
 
-    public void changePassword(string newPassword) 
+    public void changePassword(string newPassword)
     {
         this.Password = newPassword;
     }

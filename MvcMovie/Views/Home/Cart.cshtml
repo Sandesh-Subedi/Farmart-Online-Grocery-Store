@@ -23,14 +23,66 @@
               <tbody>
                 <tr>
                   <td>Tomato</td>
-                  <td>$1.49</td>
+                  <td>$0.98</td>
                   <td>
-                    <input type="number" class="form-control" value="1" min="1">
+                    <input type="number" class="form-control quantity" value="1" min="1"
+                      onchange="calculateTotal(this)">
                   </td>
-                  <td>$1.49</td>
+                  <td class="total">$0.98</td>
                   <td>
-                    <button class="btn btn-danger">Remove</button>
+                    <button class="btn btn-danger remove" onclick="removeItem(this)">Remove</button>
                   </td>
+                </tr>
+                <tr>
+                  <td>Potato</td>
+                  <td>$0.596</td>
+                  <td>
+                    <input type="number" class="form-control quantity" value="1" min="1"
+                      onchange="calculateTotal(this)">
+                  </td>
+                  <td class="total">$0.596</td>
+                  <td>
+                    <button class="btn btn-danger remove" onclick="removeItem(this)">Remove</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Carrot</td>
+                  <td>$0.98</td>
+                  <td>
+                    <input type="number" class="form-control quantity" value="1" min="1"
+                      onchange="calculateTotal(this)">
+                  </td>
+                  <td class="total">$0.98</td>
+                  <td>
+                    <button class="btn btn-danger remove" onclick="removeItem(this)">Remove</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Cilantro</td>
+                  <td>$0.68</td>
+                  <td>
+                    <input type="number" class="form-control quantity" value="1" min="1"
+                      onchange="calculateTotal(this)">
+                  </td>
+                  <td class="total">$0.68</td>
+                  <td>
+                    <button class="btn btn-danger remove" onclick="removeItem(this)">Remove</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="text-right">Subtotal:</td>
+                  <td id="subtotal">$3.236</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="text-right">Tax (6%):</td>
+                  <td id="tax">$0.19</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="text-right">Total:</td>
+                  <td id="total">$3.43</td>
+                  <td></td>
                 </tr>
               </tbody>
             </table>
@@ -44,3 +96,35 @@
     </div>
   </div>
 </section>
+
+<script>
+  function calculateTotal(input) {
+    var row = input.parentNode.parentNode;
+    var price = parseFloat(row.cells[1].innerText.replace('$', ''));
+    var quantity = input.value;
+    var total = price * quantity;
+    row.cells[3].innerText = "$" + total.toFixed(2);
+
+    updateCartTotal();
+  }
+
+  function updateCartTotal() {
+    var rows = document.querySelectorAll('.total');
+    var subtotal = 0;
+    rows.forEach(function (row) {
+      subtotal += parseFloat(row.innerText.replace('$', ''));
+    });
+    var tax = subtotal * 0.06;
+    var total = subtotal + tax;
+
+    document.getElementById('subtotal').innerText = "$" + subtotal.toFixed(2);
+    document.getElementById('tax').innerText = "$" + tax.toFixed(2);
+    document.getElementById('total').innerText = "$" + total.toFixed(2);
+  }
+
+  function removeItem(button) {
+    var row = button.parentNode.parentNode;
+    row.parentNode.removeChild(row);
+    updateCartTotal();
+  }
+</script>

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "idNdTrviiJl6kcMCnGbIdipT1TfFeo4dPWZMMzb+JbY=",
+=======
   "Hash": "1jJkIRDie95hZiQ+XuJHlcntdGdyL4Q60G+4KK7xY1c=",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
   "Source": "MvcMovie",
   "BasePath": "_content/MvcMovie",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "MvcMovie\\wwwroot",
       "Source": "MvcMovie",
+<<<<<<< HEAD
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/Debug/net8.0/scopedcss/bundle/MvcMovie.styles.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/Debug/net8.0/scopedcss/bundle/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MvcMovie.styles.css",
       "SourceId": "MvcMovie",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "MvcMovie.styles.css",
       "AssetKind": "All",
@@ -33,6 +48,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/Debug/net8.0/scopedcss/bundle/MvcMovie.styles.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/Debug/net8.0/scopedcss/projectbundle/MvcMovie.bundle.scp.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/Debug/net8.0/scopedcss/projectbundle/",
+=======
       "OriginalItemSpec": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MvcMovie.styles.css"
     },
     {
@@ -40,6 +64,7 @@
       "SourceId": "MvcMovie",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "MvcMovie.bundle.scp.css",
       "AssetKind": "All",
@@ -52,6 +77,15 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/Debug/net8.0/scopedcss/projectbundle/MvcMovie.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/css/site.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "OriginalItemSpec": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MvcMovie.bundle.scp.css"
     },
     {
@@ -59,6 +93,7 @@
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +109,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/css/styles.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\css\\styles.css",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -93,10 +135,17 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/favicon.ico",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\favicon.ico",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -112,10 +161,74 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/images/Carrot.jpg",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "images/Carrot.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Carrot.jpg"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/images/Cilantro.jpg",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "images/Cilantro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Cilantro.jpg"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/images/Cucumber.jpg",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "images/Cucumber.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Cucumber.jpg"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/images/logo.png",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\images\\logo.png",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -131,10 +244,74 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/images/Onion.jpg",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "images/Onion.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Onion.jpg"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/images/Potato.jpg",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "images/Potato.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Potato.jpg"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/images/tomato.jpg",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "images/tomato.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/tomato.jpg"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/js/site.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\js\\site.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -150,10 +327,473 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -169,10 +809,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -188,10 +835,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -207,10 +861,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -226,10 +887,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -245,10 +913,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -264,10 +939,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -283,10 +965,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -302,6 +991,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
@@ -762,6 +1457,7 @@
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -777,10 +1473,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -796,10 +1499,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -815,10 +1525,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -834,10 +1551,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -853,10 +1577,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -872,10 +1603,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -891,10 +1629,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -910,10 +1655,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -929,10 +1681,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -948,10 +1707,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -967,10 +1733,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -986,10 +1759,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/bootstrap/LICENSE",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1005,10 +1785,169 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery-validation/LICENSE.md",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery/dist/jquery.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1024,10 +1963,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery/dist/jquery.min.js",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1043,10 +1989,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery/dist/jquery.min.map",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1062,10 +2015,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/lib/jquery/LICENSE.txt",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/wwwroot/",
+=======
       "Identity": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MvcMovie",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\wwwroot\\",
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       "BasePath": "_content/MvcMovie",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

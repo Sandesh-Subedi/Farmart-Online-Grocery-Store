@@ -8224,11 +8224,25 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "/Users/sandeshsubedi/.nuget/packages/": {}
+=======
     "C:\\Users\\kyleg\\.nuget\\packages\\": {}
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/MvcMovie.csproj",
+      "projectName": "MvcMovie",
+      "projectPath": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/MvcMovie.csproj",
+      "packagesPath": "/Users/sandeshsubedi/.nuget/packages/",
+      "outputPath": "/Users/sandeshsubedi/Desktop/UI_Final/MvcMovie/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/sandeshsubedi/.nuget/NuGet/NuGet.Config"
+=======
       "projectUniqueName": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
       "projectPath": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
@@ -8238,6 +8252,7 @@
       "configFilePaths": [
         "C:\\Users\\kyleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
       ],
       "originalTargetFrameworks": [
         "net8.0"
