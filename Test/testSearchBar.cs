@@ -23,6 +23,54 @@ namespace MvcMovie.Tests
             var products = SearchBar.SearchProducts("Organic Apple");
             Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
         }
+        
+        [Test]
+        public void TestSearchProductsReturnsResults()
+        {
+            // Test the search functionality with a known value that should return results
+            var products = SearchBar.SearchProducts("Apple");
+            Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
+        }
+
+        [Test]
+        public void TestSearchProductsReturnsResults()
+        {
+            // Test the search functionality with a known value that should return results
+            var products = SearchBar.SearchProducts("      ");
+            Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
+        }
+
+        [Test]
+        public void TestSearchProductsReturnsResults()
+        {
+            // Test the search functionality with a known value that should return results
+            var products = SearchBar.SearchProducts("123@");
+            Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
+        }
+
+        [Test]
+        public void TestSearchProductsReturnsResults()
+        {
+            // Test the search functionality with a known value that should return results
+            var products = SearchBar.SearchProducts("#242");
+            Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
+        }
+
+        [Test]
+        public void TestSearchProductsReturnsResults()
+        {
+            // Test the search functionality with a known value that should return results
+            var products = SearchBar.SearchProducts("Orange");
+            Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
+        }
+
+        [Test]
+        public void TestSearchProductsReturnsResults()
+        {
+            // Test the search functionality with a known value that should return results
+            var products = SearchBar.SearchProducts("Organic Orange");
+            Assert.IsTrue(products.Count > 0, "No products found matching 'Organic Apple'");
+        }
 
         [Test]
         public void TestSearchProductsWithNoResults()
