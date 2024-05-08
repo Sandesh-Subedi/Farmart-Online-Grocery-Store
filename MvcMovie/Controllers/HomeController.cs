@@ -37,55 +37,7 @@ namespace MvcMovie.Controllers
         public IActionResult Products()
         {
 
-            List<Product> products = new List<Product>();
-
-            Product Tomato = new Product(
-                productId: 1,
-                name: "Tomato",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                weight: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/tomato.jpg");
-
-                products.Add(Tomato);
-
-            Product Tomato2 = new Product(
-                productId: 1,
-                name: "Tomato",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                weight: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/tomato.jpg");
-
-                products.Add(Tomato2);
-
-            Product Tomato3 = new Product(
-                productId: 1,
-                name: "Tomato",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                weight: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/tomato.jpg");
-
-                products.Add(Tomato3);
-
-            Product Tomato4 = new Product(
-                productId: 1,
-                name: "Tomato",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                weight: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/tomato.jpg");
-
-                products.Add(Tomato4);
+            List<Product> products = DisplayItems.getAllItems();
 
             return View(products);
         }

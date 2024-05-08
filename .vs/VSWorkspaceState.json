@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MvcMovie",
+    "\\MvcMovie\\Controllers",
+    "\\MvcMovie\\Models",
+    "\\TestProject1"
   ],
-  "SelectedNode": "\\Movie.sln",
+  "SelectedNode": "\\MvcMovie\\Models\\SearchBar.cs",
   "PreviewInSolutionExplorer": false
 }

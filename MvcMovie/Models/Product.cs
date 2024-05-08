@@ -5,7 +5,7 @@
         string name,
         string description,
         string category,
-        double weight,
+        double price,
         string dateGrown,
         string dateHarvested,
         string imageURL)
@@ -14,7 +14,7 @@
         public string Name { get; set; } = name;
         public string Description { get; set; } = description;
         public string Category { get; set; } = category;
-        public double Weight { get; set; } = weight;
+        public double Price { get; set; } = price;
         public string DateGrown { get; set; } = dateGrown;
         public string DateHarvested { get; set; } = dateHarvested;
         public string ImageURL { get; set; } = imageURL;
