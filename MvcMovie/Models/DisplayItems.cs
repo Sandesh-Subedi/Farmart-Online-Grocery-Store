@@ -11,11 +11,7 @@ namespace MvcMovie.Models
          * Returns a list of products, sorted by 
          * "dateHarvested"
          */
-<<<<<<< HEAD
-        public static List<Product> getAllItems(string sortedBy)
-=======
         public static List<Product> getAllItems() 
->>>>>>> 9064cf2f2bc727db4d9b54b0aadf32d07e57c441
         {
             List<Product> allProducts = new List<Product>();
             SqlConnection? connection = Database.ConnectToDatabase();

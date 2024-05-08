@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MvcMovie",
+    "\\MvcMovie\\Views",
+    "\\MvcMovie\\Views\\Home"
   ],
-  "SelectedNode": "\\Movie.sln",
+  "SelectedNode": "\\MvcMovie\\Views\\Home\\Register.cshtml",
   "PreviewInSolutionExplorer": false
 }
