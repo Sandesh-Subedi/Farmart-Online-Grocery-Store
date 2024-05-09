@@ -26,7 +26,7 @@ namespace MvcMovie.Controllers
             else
             {
                 // Load all products if no search term is provided
-                products = GetAllProducts();
+                products = DisplayItems.getAllItems();
             }
 
             // Pass the search term to the view
@@ -36,60 +36,7 @@ namespace MvcMovie.Controllers
         }
 
 
-        private List<Product> GetAllProducts()
-        {
-            List<Product> products = new List<Product>();
-
-            Product Tomato = new Product(
-                productId: 1,
-                name: "Tomato",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                price: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/tomato.jpg");
-
-                products.Add(Tomato);
-
-            Product Tomato2 = new Product(
-                productId: 1,
-                name: "Carrot",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                price: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/Carrot.jpg");
-
-                products.Add(Tomato2);
-
-            Product Tomato3 = new Product(
-                productId: 1,
-                name: "Onion",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                price: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/Onion.jpg");
-
-                products.Add(Tomato3);
-
-            Product Tomato4 = new Product(
-                productId: 1,
-                name: "Potato",
-                description: "This is a fresh tomato.",
-                category: "Vegetable",
-                price: 0.2,
-                dateGrown: "2024-05-05",
-                dateHarvested: "2024-05-06",
-                imageURL: "/Images/Potato.jpg");
-
-                products.Add(Tomato4);
-
-                return products;
-        }
+      
 
 
 

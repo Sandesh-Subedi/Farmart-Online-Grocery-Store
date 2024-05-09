@@ -3,6 +3,7 @@
     "",
     "\\MvcMovie",
     "\\MvcMovie\\Controllers",
+    "\\MvcMovie\\Models",
     "\\MvcMovie\\Views",
     "\\MvcMovie\\Views\\Home",
     "\\TestProject1"
