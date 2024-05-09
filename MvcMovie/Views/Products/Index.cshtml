@@ -1,0 +1,51 @@
+@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "List of Products";
+}
+
+<style>
+  .search-bar {
+    height: 40px;
+  }
+
+  .search-btn {
+    height: 60px;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center mt-3 mb-5">
+    <div class="col-lg-6">
+        <form asp-controller="Products" asp-action="Index" method="get">
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-control" name="searchTerm" placeholder="Search for products..." value="@ViewBag.SearchTerm">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-outline-secondary">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <div class="row">
+      @foreach (var item in Model) 
+      {
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="@item.ImageURL" alt="Onion" style="width: auto; height: 450px;">
+            <div class="card-body">
+              <h4 class="card-title">@item.Name</h4>
+              <h5 class="card-title">$@item.Price/lb</h5>
+              <p class="card-text">@item.Description</p>
+              <button class="btn btn-primary" onclick="addToCart(1)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</body>

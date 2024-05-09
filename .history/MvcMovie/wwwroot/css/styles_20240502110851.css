@@ -1,0 +1,262 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    width: 700px;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    margin-left: -15px; /* Add negative margin to counteract default padding */
+    margin-right: -15px; /* Add negative margin to counteract default padding */
+}
+
+.column-one,
+.column-two {
+    width: 50%;
+    padding-left: 15px; /* Add padding to each column to space them out */
+    padding-right: 15px; /* Add padding to each column to space them out */
+}
+
+.form-group {
+    margin-bottom: 30px;
+    width: 100%; /* Ensure form groups take up full width */
+}
+
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-group label {
+    text-align: left;
+    display: block;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #3d8a49;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3d8a49;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2f6d3f;
+}
+
+.register-options {
+    margin-top: 20px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-right: 80px;
+}
+
+.nav-item:hover .nav-links {
+    color: #4CAF50 !important;
+    text-decoration: none;
+}
+
+.nav-links {
+    font-size: 25px;
+    color: #276761;
+    text-decoration: none;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.about-content h1,
+.about-content h2 {
+    color: #276761;
+}
+
+.about-content p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.istockphoto.com/id/1198380802/vector/food-background-vegetables-seamless-pattern-healthy-eating-tomato-garlic-carrot-pepper.jpg?s=612x612&w=0&k=20&c=jHB3uTWZrakPyAgqSQfOApxSq_jIwHRx00LiOV2YHEk=");
+    background-size: cover;
+    opacity: 0.5; /* Adjust as needed */
+}
+
+.content {
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+.home-container {
+    position: relative;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+.home-heading {
+    font-size: 6rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.green-text {
+    color: #3d8a49;
+}
+
+.home-subheading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.home-description {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 60px;
+}
+.farm-pattern-left,
+.farm-pattern-right {
+    position: absolute;
+
+    width: calc(50% - 300px); /* Set width to cover half of the viewport minus some padding */
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.farm-pattern-left {
+    background-image: url("https://media.istockphoto.com/id/1205020853/vector/hand-drawn-green-vegetables-vector-seamless-pattern.jpg?s=612x612&w=0&k=20&c=hHkwkAZ7SN-5Onbcm7KPXPGG92h2kAh1C8RxxsrbsbQ="); /* Specify left farm pattern image */
+}
+
+.farm-pattern-right {
+    right: 0;
+    background-image: url("https://media.istockphoto.com/id/1205020853/vector/hand-drawn-green-vegetables-vector-seamless-pattern.jpg?s=612x612&w=0&k=20&c=hHkwkAZ7SN-5Onbcm7KPXPGG92h2kAh1C8RxxsrbsbQ="); 
+}
+
+.home-register {
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+.question {
+    margin-bottom: 20px; /* Add margin between the question and the button */
+}
+
+.cta-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set default text color */
+}
+
+.button-container {
+    display: inline-block; /* Ensure the button container is inline */
+}
+
+.cta-button:hover {
+    background-color: #45a049; /* Darker green */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set default text color */
+}
+
+.image-container {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    margin-top: 20px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+    opacity: 0.8;
+}
+
+.image-container img {
+    width: 600px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
