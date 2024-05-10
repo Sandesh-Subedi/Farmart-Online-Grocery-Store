@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Farmart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22b373b3e4b535b9f2c1adcc484ec584d59f0667")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bf6e25e8369883418fffa257ce9983daed8d54d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Farmart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Farmart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

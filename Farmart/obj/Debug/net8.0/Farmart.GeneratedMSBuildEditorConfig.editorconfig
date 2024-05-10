@@ -42,16 +42,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Home/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Home/SignIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TaWduSW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Shared/Error.cshtml]
@@ -60,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/SignIn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnbkluL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/_ViewImports.cshtml]
