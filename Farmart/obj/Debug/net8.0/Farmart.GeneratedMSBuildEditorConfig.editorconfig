@@ -26,12 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/AboutUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXRVcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Home/AboutUs.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dFVzLmNzaHRtbA==
+[/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jakeerwin/Documents/GitHub/CapstoneProject/Farmart/Views/Home/Index.cshtml]
