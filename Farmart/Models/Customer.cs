@@ -1,4 +1,4 @@
-namespace MvcMovie.Models;
+namespace Farmart.Models;
 public class Customers : User
 {
     public Customers(string userName, string password, string email, string firstName, string lastName, int customerId, string address)

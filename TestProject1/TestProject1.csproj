@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Farmart\Farmart.csproj" />
     <ProjectReference Include="..\MvcMovie\MvcMovie.csproj" />
   </ItemGroup>
 

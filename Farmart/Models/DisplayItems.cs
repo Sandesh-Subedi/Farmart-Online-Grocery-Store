@@ -3,7 +3,7 @@ using Microsoft.Data.SqlClient;
 using System.Data;
 using System.Diagnostics.Metrics;
 
-namespace MvcMovie.Models
+namespace Farmart.Models
  {
     public class DisplayItems
     {

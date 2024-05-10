@@ -1,10 +1,10 @@
 
 using Microsoft.Data.SqlClient;
 using NUnit.Framework;
-using MvcMovie.Models;
+using Farmart.Models;
 using System.Collections.Generic;
 
-namespace MvcMovie.Tests
+namespace Farmart.Tests
 {
     [TestFixture]
     public class TestSearchBar

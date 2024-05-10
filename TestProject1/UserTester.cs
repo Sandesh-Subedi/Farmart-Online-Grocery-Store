@@ -1,7 +1,7 @@
 
 
 using Microsoft.AspNetCore.Authentication;
-using MvcMovie.Models;
+using Farmart.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Intrinsics.X86;
 

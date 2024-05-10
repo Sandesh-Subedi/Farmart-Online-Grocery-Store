@@ -1,13 +1,13 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MvcMovie.Models;
+using Farmart.Models;
 
-namespace MvcMovie.Controllers
+namespace Farmart.Controllers
 {
     public class ProductsController : Controller
     {
         private readonly ILogger<ProductsController> _logger;
-        public MvcMovie.Models.User? CurrentLogginUser { get; set; }
+        public Farmart.Models.User? CurrentLogginUser { get; set; }
 
         public ProductsController(ILogger<ProductsController> logger)
         {

@@ -1,13 +1,13 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MvcMovie.Models;
+using Farmart.Models;
 
-namespace MvcMovie.Controllers
+namespace Farmart.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        public MvcMovie.Models.User? CurrentLogginUser { get; set; }
+        public Farmart.Models.User? CurrentLogginUser { get; set; }
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -47,16 +47,16 @@ namespace MvcMovie.Controllers
         }
 
         [HttpPost] // Holds data from Sign In form
-        public IActionResult SignIn(MvcMovie.Models.SignIn signInModel)
+        public IActionResult SignIn(Farmart.Models.SignIn signInModel)
         {
             string username = signInModel.Username;
             string password = signInModel.Password;
 
             Console.WriteLine($"Username: {username}, Password: {password}");
 
-            if (MvcMovie.Models.SignIn.LoginWithData(username, password))
+            if (Farmart.Models.SignIn.LoginWithData(username, password))
             {
-                CurrentLogginUser = MvcMovie.Models.SignIn.getUserFromDatabase(username);
+                CurrentLogginUser = Farmart.Models.SignIn.getUserFromDatabase(username);
                 Console.WriteLine(CurrentLogginUser.UserName.ToString());
             }
             else
@@ -69,7 +69,7 @@ namespace MvcMovie.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register(MvcMovie.Models.Register registerModel)
+        public IActionResult Register(Farmart.Models.Register registerModel)
         {
             string firstName = registerModel.FirstName;
             string lastName = registerModel.LastName;

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using MvcMovie.Models;
-using MvcMovie.Data;
+using Farmart.Models;
+using Farmart.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

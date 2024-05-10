@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using MvcMovie.Models;
+using Farmart.Models;
 
-namespace MvcMovie.Data
+namespace Farmart.Data
 {
     public class FarmartContext : DbContext
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
-namespace MvcMovie.Models
+namespace Farmart.Models
 {
     public static class SearchBar
     {

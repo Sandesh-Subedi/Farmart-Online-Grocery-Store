@@ -1,4 +1,4 @@
-namespace MvcMovie.Models;
+namespace Farmart.Models;
 
 public class Cart (int cartId, int quantity, List<Product> products)
 {

@@ -34,7 +34,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "MvcMovie/1.0.0": {
+      "Farmart/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.4",
           "Microsoft.EntityFrameworkCore.Design": "8.0.3",
@@ -345,10 +345,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "MvcMovie.dll": {}
+          "Farmart.dll": {}
         },
         "compile": {
-          "MvcMovie.dll": {}
+          "Farmart.dll": {}
         }
       },
       "Azure.Core/1.35.0": {
@@ -4431,7 +4431,7 @@
     }
   },
   "libraries": {
-    "MvcMovie/1.0.0": {
+    "Farmart/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

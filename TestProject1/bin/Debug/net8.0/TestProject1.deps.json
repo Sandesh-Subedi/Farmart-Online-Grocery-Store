@@ -36,6 +36,7 @@
     ".NETCoreApp,Version=v8.0": {
       "TestProject1/1.0.0": {
         "dependencies": {
+          "Farmart": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.6.0",
           "MvcMovie": "1.0.0",
           "NUnit": "3.13.3",
@@ -2903,7 +2904,7 @@
           "lib/net7.0/System.Windows.Extensions.dll": {}
         }
       },
-      "MvcMovie/1.0.0": {
+      "Farmart/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.3",
@@ -2911,10 +2912,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
         },
         "runtime": {
-          "MvcMovie.dll": {}
+          "Farmart.dll": {}
         },
         "compile": {
-          "MvcMovie.dll": {}
+          "Farmart.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -4722,6 +4723,15 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
+      },
+      "MvcMovie/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
+        },
+        "compileOnly": true
       }
     }
   },
@@ -5956,7 +5966,7 @@
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
-    "MvcMovie/1.0.0": {
+    "Farmart/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -7463,6 +7473,11 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MvcMovie/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

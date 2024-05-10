@@ -3,7 +3,7 @@ using Microsoft.Data.SqlClient;
 using NuGet.Protocol.Plugins;
 using System.Data;
 
-namespace MvcMovie.Models
+namespace Farmart.Models
  {
     public class Database
     {

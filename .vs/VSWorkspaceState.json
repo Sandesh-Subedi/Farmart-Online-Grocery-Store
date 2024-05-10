@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\MvcMovie",
-    "\\MvcMovie\\Controllers",
-    "\\MvcMovie\\Models",
-    "\\MvcMovie\\Views",
-    "\\MvcMovie\\Views\\Home",
     "\\TestProject1"
   ],
-  "SelectedNode": "\\MvcMovie\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\Farmart.sln",
   "PreviewInSolutionExplorer": false
 }

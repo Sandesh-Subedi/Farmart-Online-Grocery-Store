@@ -1,4 +1,4 @@
-﻿namespace MvcMovie.Models
+﻿namespace Farmart.Models
 {
     public class Product(
         int productId,
