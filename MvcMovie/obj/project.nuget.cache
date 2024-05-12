@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WAeO4JszzJr0ygIpHf8fDAmp+V1bNahvYOAZSeMwIcbcyU3mUcXeAw7YiFdFFOJwCnLPBkJQJH3+D4p7o7xhwg==",
+  "dgSpecHash": "YbBI4GSLlSxhpRwkClkFJbHKeh5j2oKOHiT3FTLdIMGVbYhKMr4xYl0r7o6T6aIvz1Bag/KGJdPtYd8HpODuog==",
   "success": true,
   "projectFilePath": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,8 @@
     "C:\\Users\\kyleg\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.4\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.4.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\kyleg\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
