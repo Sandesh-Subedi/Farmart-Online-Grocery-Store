@@ -38,7 +38,6 @@
         "dependencies": {
           "Farmart": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.6.0",
-          "MvcMovie": "1.0.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.2.1",
@@ -4723,15 +4722,6 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
-      },
-      "MvcMovie/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.4",
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
-        },
-        "compileOnly": true
       }
     }
   },
@@ -7473,11 +7463,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MvcMovie/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

@@ -18,6 +18,6 @@ namespace Farmart.Controllers
         {
             return View();
         }
-
     }
 }
+

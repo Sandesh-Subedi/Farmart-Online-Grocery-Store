@@ -1,3 +1,5 @@
+using Microsoft.Data.SqlClient;
+
 namespace Farmart.Models;
 
 public class Cart (int cartId)
@@ -52,5 +54,36 @@ public class Cart (int cartId)
     public Product GetProductById(int productId)
     {
         return Products.Find(p => p.ProductId == productId);
+    }
+
+    public void GetCartFromDatabase(Cart newCart, int newCartId, int userId)
+    {
+        SqlConnection? connection = Database.ConnectToDatabase();
+        string query = "SELECT CartId, UserId, FROM Cart WHERE CartId = @CartId";
+
+        using (connection)
+        {
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@CartId", newCartId);
+
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    newCartId = reader.GetInt32(0);
+                    userId = reader.GetInt32(1);
+                    newCart = new Cart(newCartId);
+                }
+
+                reader.Close();
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine("An error occurred: " + ex.Message);
+            }
+        }
     }
 }

@@ -3275,25 +3275,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "MvcMovie/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SQLite": "8.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
-        },
-        "compile": {
-          "bin/placeholder/MvcMovie.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MvcMovie.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -9018,18 +8999,12 @@
       "type": "project",
       "path": "../Farmart/Farmart.csproj",
       "msbuildProject": "../Farmart/Farmart.csproj"
-    },
-    "MvcMovie/1.0.0": {
-      "type": "project",
-      "path": "../MvcMovie/MvcMovie.csproj",
-      "msbuildProject": "../MvcMovie/MvcMovie.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Farmart >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
-      "MvcMovie >= 1.0.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.2.1",
@@ -9037,19 +9012,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kyleg\\.nuget\\packages\\": {}
+    "C:\\Users\\natnh.DESKTOP-B3NF5UC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyleg\\CapstoneProject\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\kyleg\\CapstoneProject\\TestProject1\\TestProject1.csproj",
-      "packagesPath": "C:\\Users\\kyleg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kyleg\\CapstoneProject\\TestProject1\\obj\\",
+      "projectPath": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\TestProject1\\TestProject1.csproj",
+      "packagesPath": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kyleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\natnh.DESKTOP-B3NF5UC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9057,17 +9037,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\kyleg\\CapstoneProject\\Farmart\\Farmart.csproj": {
-              "projectPath": "C:\\Users\\kyleg\\CapstoneProject\\Farmart\\Farmart.csproj"
-            },
-            "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj": {
-              "projectPath": "C:\\Users\\kyleg\\CapstoneProject\\MvcMovie\\MvcMovie.csproj"
+            "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\Farmart\\Farmart.csproj": {
+              "projectPath": "C:\\Users\\natnh.DESKTOP-B3NF5UC\\Documents\\CapstoneProject\\Farmart\\Farmart.csproj"
             }
           }
         }
