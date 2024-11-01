@@ -29,6 +29,6 @@ To get started with Farmart, follow these steps:
 
 ## Contact
 
-Have questions or feedback? Feel free to reach out to us at [kylegann9@gmail.com](mailto:kylegann9@gmail.com).
+Have questions or feedback? Feel free to reach out to us at [sandeshsubedi324@gmail.com](mailto:sandeshsubedi324@gmail.com).
 
 Thank you for choosing Farmart for your online grocery shopping needs! Happy shopping! 🛒🌾
